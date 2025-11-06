@@ -14,7 +14,7 @@
     "tsc-init": "tsc --init",
     "tsc": "tsc --listEmittedFiles",
     "test-sendgrid": "ts-node netlify/sendgrid/hello-world.ts",
-    "compress-image": "cwebp -q 60 public/images/backgrounds/temoignages.jpg -o public/images/backgrounds/temoignages.webp"
+    "compress-image": "cwebp -q 30 public/images/flyers/alchimie-du-tarot-01.png -o public/images/flyers/alchimie-du-tarot-01.webp"
   },
   "dependencies": {
     "@netlify/functions": "2.6.0",

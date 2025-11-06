@@ -21,7 +21,7 @@ export const StageAlchimieDuTarot: FC = () => {
             className="card card-lg text-start text-light fs-5 font-monserrat m-2 fw-medium"
           >
             <img
-              src="/images/flyers/alchimie-du-tarot-01.png"
+              src="/images/flyers/alchimie-du-tarot-01.webp"
               alt="Stage Alchimie du Tarot du 1er au 3 mai 2026"
               className="img-fluid rounded-3"
             />
@@ -138,7 +138,7 @@ export const StageAlchimieDuTarot: FC = () => {
                   </div>
                 </div>
               </TransparentListGroupItem>
-              <TransparentListGroupItem className="pt-2 pb-0 text-light">
+              <TransparentListGroupItem className="pt-2 pb-1 text-light">
                 <div className="d-flex flex-row card-subtitle align-items-center">
                   <i className="bi bi-currency-euro fs-3 me-4"></i>
                   <div className="d-flex flex-column justify-content-between ">
