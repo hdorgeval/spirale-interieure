@@ -87,7 +87,7 @@ export const StageAlchimieDuTarot: FC = () => {
 
             <p className="fw-bolder mb-3">
               <i className="bi bi-circle-fill fs-9 me-2 position-relative top--3px"></i>
-              Vivez des immersions sensorielles et symboliques dans la Matrice de l’eau chaude !
+              Laissez-vous porter par des immersions sensorielles et symboliques dans la Matrice de l’eau chaude !
             </p>
 
             <p className="fw-bolder mb-3">
