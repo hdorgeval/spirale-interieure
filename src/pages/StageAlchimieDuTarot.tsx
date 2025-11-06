@@ -11,7 +11,7 @@ import { TransparentListGroupItem } from './page-layout/TransparentListGroupItem
 export const StageAlchimieDuTarot: FC = () => {
   return (
     <PublicPageLayoutWithFixedBackgroundGradient
-      backgroundOverlay="linear-gradient(to bottom,rgba(147, 96, 6, 1), rgba(52, 14, 3, 0.4))"
+      backgroundOverlay="linear-gradient(to bottom,rgba(218, 165, 32, 1), rgba(184, 134, 11, 0.5))"
       htmlTitle={`Stage Alchimie du Tarot du 1er au 3 mai 2026 | ${websiteConfig.websiteTitle}`}
     >
       <div className="d-flex flex-column justify-content-start align-items-center">
