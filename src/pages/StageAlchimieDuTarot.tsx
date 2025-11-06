@@ -5,13 +5,16 @@ import { OpenExternalLinkButton } from '../components/OpenExternalLinkButton';
 import { Quote } from '../components/Quote';
 import { ReadMoreReadLess } from '../components/ReadMoreReadLess';
 import { websiteConfig } from '../website.config';
-import { PublicPageLayoutWithFixedBackgroundGradient } from './page-layout/PublicPageLayoutWithFixedBackgroundGradient';
+import { PublicPageLayoutWithFixedBackgroundImage } from './page-layout/PublicPageLayoutWithFixedBackgroundImage';
 import { SemiTransparentTile } from './page-layout/SemiTransparentTile';
 import { TransparentListGroupItem } from './page-layout/TransparentListGroupItem';
 export const StageAlchimieDuTarot: FC = () => {
   return (
-    <PublicPageLayoutWithFixedBackgroundGradient
-      backgroundOverlay="linear-gradient(to bottom,rgba(218, 165, 32, 1), rgba(184, 134, 11, 0.5))"
+    <PublicPageLayoutWithFixedBackgroundImage
+      backgroundImageUrl="/images/backgrounds/landing-page.webp"
+      backgroundOverlay="linear-gradient(to bottom,rgba(0, 0, 0, 0.1), rgba(79, 79, 93, 0.40))"
+      backgroundPositionX="44%"
+      backgroundPositionY="29%"
       htmlTitle={`Stage Alchimie du Tarot du 1er au 3 mai 2026 | ${websiteConfig.websiteTitle}`}
     >
       <div className="d-flex flex-column justify-content-start align-items-center">
@@ -188,7 +191,7 @@ export const StageAlchimieDuTarot: FC = () => {
           </SemiTransparentTile>
         </div>
       </div>
-    </PublicPageLayoutWithFixedBackgroundGradient>
+    </PublicPageLayoutWithFixedBackgroundImage>
   );
 };
 
