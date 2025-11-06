@@ -61,4 +61,9 @@
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
+    <url>
+    <loc>https://spirale-interieure.com/stages/stage-alchimie-du-tarot</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>

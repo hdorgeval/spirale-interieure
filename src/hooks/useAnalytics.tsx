@@ -4,6 +4,7 @@ export type MyAnalyticsEvent =
   | 'appel-telephone'
   | 'envoie-mail'
   | 'has-completed-guided-tour'
+  | 'inscription-stage-alchimie-tarot'
   | 'open-charte-ethique'
   | 'open-external-link'
   | 'open-google-maps'

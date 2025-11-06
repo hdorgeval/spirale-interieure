@@ -45,7 +45,7 @@ export const OpenExternalLinkButton: React.FC<OpenExternalLinkButtonOwnProps> = 
       >
         <div className="d-flex flex-row align-items-center justify-content-center">
           <div>{children}</div>
-          <i className="bi bi-box-arrow-up-right ms-3"></i>
+          <i className="bi bi-box-arrow-up-right ms-3 me-3"></i>
         </div>
       </a>
     </>

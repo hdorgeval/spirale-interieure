@@ -13,6 +13,14 @@ export const events: NextToComeEvent[] = [
     name: 'Journée canalisations et constellations systémiques intuitives',
     url: '/events/journee-canalisations-et-constellations',
   },
+  {
+    startDate: '2026/05/01',
+    startTime: 11,
+    endDate: '2026/05/03',
+    endTime: 17,
+    name: 'Stage L’Alchimie du Tarot : voyage du corps à l’âme, au rythme de l’eau !',
+    url: '/stages/stage-alchimie-du-tarot',
+  },
 ];
 
 export const HambugerMenu: FC = () => {

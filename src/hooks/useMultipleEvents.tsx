@@ -4,7 +4,7 @@ export interface NextToComeEvent {
   startDate: string;
   startTime: 8 | 9 | 10 | 11;
   endDate: string;
-  endTime: 18 | 19 | 20;
+  endTime: 17 | 18 | 19 | 20;
   name: string;
   url: string;
   isPassed?: boolean;

@@ -13,6 +13,7 @@ import { MassageTantriqueTao } from './pages/MassageTantriqueTao';
 import { MentionsLegales } from './pages/MentionsLegales';
 import { QuiSuisJe } from './pages/QuiSuisJe';
 import { Sophrologie } from './pages/Sophrologie';
+import { StageAlchimieDuTarot } from './pages/StageAlchimieDuTarot';
 import { Temoignages } from './pages/Temoignages';
 import { ThemeDeNaissanceParLeTarotDeMarseille } from './pages/ThemeDeNaissanceParLeTarotDeMarseille';
 
@@ -61,6 +62,10 @@ const router = createBrowserRouter([
   {
     path: '/consultation-tarot-de-marseille',
     element: <ConsultationTarotDeMarseille />,
+  },
+  {
+    path: '/stages/stage-alchimie-du-tarot',
+    element: <StageAlchimieDuTarot />,
   },
   {
     path: '/la-trame',

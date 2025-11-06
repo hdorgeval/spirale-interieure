@@ -39,9 +39,11 @@ export const Quote: FC<QuoteOwnProps> = ({ sentence, author }) => {
           </span>
         </p>
       </blockquote>
-      <figcaption className="blockquote-footer mb-0 mt-2 font-italic text-muted">
-        {author}
-      </figcaption>
+      {author && (
+        <figcaption className="blockquote-footer mb-0 mt-2 font-italic text-muted">
+          {author}
+        </figcaption>
+      )}
     </figure>
   );
 };

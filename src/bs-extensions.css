@@ -63,6 +63,14 @@
   font-size: 0.75rem !important;
 }
 
+.fs-9 {
+  font-size: 0.60rem !important;
+}
+
+.top--3px {
+  top: -3px !important;
+}
+
 .bi-rotate-180::before {
   transform: rotate(180deg);
   -webkit-transform: rotate(-180deg);
