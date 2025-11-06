@@ -13,7 +13,7 @@ export const Footer: FC = () => {
         {websiteConfig.displaySocialLinksInFooter && <SocialLinksHorizontalBar />}
         {websiteConfig.displaySocialLinksViaButton && <SocialLinksOffCanvas />}
 
-        <span className="fs-7 fw-lighter mb-1">
+        <span className="fs-7 mb-1">
           <i className="bi bi-c-circle me-2"></i>
           {`tous droits réservés ${websiteConfig.copyrightOwner} - ${currentYear}`}
         </span>
