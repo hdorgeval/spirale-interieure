@@ -24,7 +24,7 @@ export const StageAlchimieDuTarot: FC = () => {
             className="card card-lg text-start text-light fs-5 font-monserrat m-2 fw-medium"
           >
             <img
-              src="/images/flyers/alchimie-du-tarot-01.webp"
+              src="/images/flyers/alchimie-du-tarot-02.webp"
               alt="Stage Alchimie du Tarot du 1er au 3 mai 2026"
               className="img-fluid rounded-3"
             />
