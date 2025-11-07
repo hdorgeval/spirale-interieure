@@ -20,7 +20,7 @@ export const StageAlchimieDuTarot: FC = () => {
       <div className="d-flex flex-column justify-content-start align-items-center">
         <div className="container-fluid d-flex flex-column justify-content-start align-items-stretch flex-wrap py-2 px-0">
           <SemiTransparentTile
-            background="linear-gradient(rgb(12, 65, 71,1), rgba(12, 65, 71,0.3))"
+            background="linear-gradient(rgb(5, 94, 145,1), rgba(5, 94, 145,0.3))"
             className="card card-lg text-start text-light fs-5 font-monserrat m-2 fw-medium"
           >
             <img
@@ -30,7 +30,7 @@ export const StageAlchimieDuTarot: FC = () => {
             />
           </SemiTransparentTile>
           <SemiTransparentTile
-            background="linear-gradient(rgb(12, 65, 71,1), rgba(12, 65, 71,0.3))"
+            background="linear-gradient(rgb(5, 94, 145,1), rgba(5, 94, 145,0.3))"
             className="card card-lg text-start text-light fs-5 font-monserrat px-4 py-3 m-2 fw-medium"
           >
             <ReadMoreReadLess
@@ -60,7 +60,7 @@ export const StageAlchimieDuTarot: FC = () => {
             </ReadMoreReadLess>
           </SemiTransparentTile>
           <SemiTransparentTile
-            background="linear-gradient(rgb(12, 65, 71,1), rgba(12, 65, 71,0.3))"
+            background="linear-gradient(rgb(5, 94, 145,1), rgba(5, 94, 145,0.3))"
             className="card card-lg text-start text-light fs-5 font-monserrat px-4 py-3 m-2 fw-medium"
           >
             <p className="fw-bolder mb-3">
@@ -99,7 +99,7 @@ export const StageAlchimieDuTarot: FC = () => {
           </SemiTransparentTile>
 
           <SemiTransparentTile
-            background="linear-gradient(rgb(12, 65, 71,1), rgba(12, 65, 71,0.3))"
+            background="linear-gradient(rgb(5, 94, 145,1), rgba(5, 94, 145,0.3))"
             className="card card-lg text-start text-light font-monserrat m-2"
           >
             <div className="card-body">
@@ -111,7 +111,7 @@ export const StageAlchimieDuTarot: FC = () => {
           </SemiTransparentTile>
 
           <SemiTransparentTile
-            background="linear-gradient(rgb(12, 65, 71,1), rgba(12, 65, 71,0.3))"
+            background="linear-gradient(rgb(5, 94, 145,1), rgba(5, 94, 145,0.3))"
             className="card card-lg text-start text-light font-monserrat m-2"
           >
             <div className="card-header py-3">
@@ -178,7 +178,7 @@ export const StageAlchimieDuTarot: FC = () => {
           </SemiTransparentTile>
 
           <SemiTransparentTile
-            background="linear-gradient(rgb(12, 65, 71,1), rgba(12, 65, 71,0.3))"
+            background="linear-gradient(rgb(5, 94, 145,1), rgba(5, 94, 145,0.3))"
             className="card card-lg text-start text-light font-monserrat m-2"
           >
             <OpenExternalLinkButton
