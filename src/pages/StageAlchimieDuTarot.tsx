@@ -1,6 +1,8 @@
 import { FC } from 'react';
 import { CallablePhoneNumber } from '../components/CallablePhoneNumber';
 import { Description } from '../components/Description';
+import { InscriptionModal } from '../components/InscriptionModal';
+import { OpenModalButton } from '../components/OpenModalButton';
 import { Quote } from '../components/Quote';
 import { ReadMoreReadLess } from '../components/ReadMoreReadLess';
 import { websiteConfig } from '../website.config';
@@ -189,20 +191,32 @@ export const StageAlchimieDuTarot: FC = () => {
             </ul>
           </SemiTransparentTile>
 
-          {/* <SemiTransparentTile
+          <SemiTransparentTile
             background="linear-gradient(rgb(5, 94, 145,1), rgba(5, 94, 145,0.3))"
             className="card card-lg text-start text-light font-monserrat m-2"
           >
-            <OpenExternalLinkButton
-              className="btn fw-bolder w-100 mt-0 me-0 pe-0 disabled"
-              link="https://billetweb.fr/stage-alchimie-du-tarot-1"
-              analyticsEvent="inscription-stage-alchimie-tarot"
-              title="S'inscrire au stage"
+            <OpenModalButton
+              className="btn fw-bolder w-100 mt-1"
+              modalId="inscription-stage-alchimie-tarot"
             >
-              S'inscrire au stage (inscriptions bientôt ouvertes)
-            </OpenExternalLinkButton>
-          </SemiTransparentTile> */}
+              S'inscrire au stage
+            </OpenModalButton>
+          </SemiTransparentTile>
         </div>
+
+        <InscriptionModal
+          modalId="inscription-stage-alchimie-tarot"
+          analyticsEvent="inscription-stage-alchimie-tarot"
+          formTitle="Inscription au Stage Alchimie du Tarot du 1er au 3 mai 2026"
+          formPrerequisites="Merci de remplir ce formulaire pour vous inscrire au Stage Alchimie du Tarot du 1er au 3 mai 2026. Votre inscription ne sera confirmée qu'à réception du chèque d'acompte de 150€."
+          eventName="Stage Alchimie du Tarot du 1er au 3 mai 2026"
+          backgroundColor="#0d1425"
+          backgroundImageUrl="/images/backgrounds/landing-page.webp"
+          backgroundOverlay="linear-gradient(to bottom,rgba(0, 0, 0, 0.2), rgba(79, 79, 93, 0.1))"
+          backgroundPositionX="64%"
+          backgroundPositionY="84%"
+          formBackgroundClassName="form-contact fw-medium text-light placeholder-text-light"
+        ></InscriptionModal>
       </div>
     </PublicPageLayoutWithFixedBackgroundImage>
   );

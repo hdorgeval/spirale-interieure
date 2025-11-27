@@ -202,7 +202,7 @@ export const HambugerMenu: FC = () => {
                         >
                           {buildDateRangeLabel(event.startDate, event.endDate)}
                         </div>
-                        <Link key={event.name} to={event.url}>
+                        <Link to={event.url}>
                           <div className="badge rounded-pill text-bg-badge-burger-menu fs-7 border border-secondary m-1 ms-4 ps-3 text-wrap text-start">
                             <span className="mt-2"> {event.name}</span>
                           </div>
