@@ -1,7 +1,6 @@
 import { FC } from 'react';
 import { CallablePhoneNumber } from '../components/CallablePhoneNumber';
 import { Description } from '../components/Description';
-import { OpenExternalLinkButton } from '../components/OpenExternalLinkButton';
 import { Quote } from '../components/Quote';
 import { ReadMoreReadLess } from '../components/ReadMoreReadLess';
 import { websiteConfig } from '../website.config';
@@ -158,6 +157,19 @@ export const StageAlchimieDuTarot: FC = () => {
                       <span className="">Repas :</span>
                       <span className=" ms-1 fw-bolder">Repas en auberge espagnole</span>
                     </div>
+                    <div className="d-inline-block pt-4 ">
+                      <span className="fw-bolder">Inscription :</span>
+                      <span className=" ms-1 ">Chèque d’acompte de 150€ à envoyer à:</span>
+                      <div className="d-flex flex-column justify-content-between pt-2 ps-3">
+                        <span className="fst-italic fw-semibold">Isabelle Hervouet</span>
+                        <span className="fst-italic fw-semibold">32 rue Médéric</span>
+                        <span className="fst-italic fw-semibold">92250 La Garenne Colombes</span>
+                      </div>
+                      <span className="d-inline-block pt-4">
+                        En cas d’annulation moins d’un mois avant les arrhes seront non
+                        remboursables.
+                      </span>
+                    </div>
                   </div>
                 </div>
               </TransparentListGroupItem>
@@ -177,7 +189,7 @@ export const StageAlchimieDuTarot: FC = () => {
             </ul>
           </SemiTransparentTile>
 
-          <SemiTransparentTile
+          {/* <SemiTransparentTile
             background="linear-gradient(rgb(5, 94, 145,1), rgba(5, 94, 145,0.3))"
             className="card card-lg text-start text-light font-monserrat m-2"
           >
@@ -189,7 +201,7 @@ export const StageAlchimieDuTarot: FC = () => {
             >
               S'inscrire au stage (inscriptions bientôt ouvertes)
             </OpenExternalLinkButton>
-          </SemiTransparentTile>
+          </SemiTransparentTile> */}
         </div>
       </div>
     </PublicPageLayoutWithFixedBackgroundImage>
