@@ -149,11 +149,15 @@ export const StageAlchimieDuTarot: FC = () => {
                   <div className="d-flex flex-column justify-content-between ">
                     <div className="d-inline-block">
                       <span className="">Tarif: </span>
-                      <span className="ms-1 fw-bolder">300€</span>
+                      <span className="ms-1 fw-bolder">280€</span>
+                    </div>
+                    <div className="d-inline-block">
+                      <span className="">Tarif préférentiel jusqu'au 31 mars: </span>
+                      <span className="ms-1 fw-bolder">250€</span>
                     </div>
                     <div className="d-inline-block">
                       <span className="">Hébergement sur place : </span>
-                      <span className="ms-1 fw-bolder">50 € par nuitée</span>
+                      <span className="ms-1 fw-bolder">80€ pour 2 nuits - 120€ pour 3 nuits</span>
                     </div>
                     <div className="d-inline-block">
                       <span className="">Repas :</span>
